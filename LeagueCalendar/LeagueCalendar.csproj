@@ -83,6 +83,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\League.cs" />
+    <Compile Include="Models\Match.cs" />
+    <Compile Include="Models\Team.cs" />
     <Compile Include="PageOne.aspx.cs">
       <DependentUpon>PageOne.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -95,7 +98,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Helpers\" />
-    <Folder Include="Models\" />
     <Folder Include="Services\" />
   </ItemGroup>
   <PropertyGroup>
