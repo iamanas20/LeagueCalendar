@@ -12,6 +12,10 @@ namespace LeagueCalendar.Models
         public Team AwayTeam { get; set; }
 
         public DateTime Time { get; set; }
-        
+
+        public override string ToString()
+        {
+            return String.Format("{0} -vs- {1}", HomeTeam.Name, AwayTeam.Name);
+        }
     }
 }

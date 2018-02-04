@@ -11,12 +11,15 @@ namespace LeagueCalendar
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                // TODO: fill in the UI
+            }
         }
 
         protected void MatchesDropDownList_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            // TODO: show the match's date based on the index...
         }
     }
 }
