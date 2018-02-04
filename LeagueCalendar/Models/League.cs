@@ -20,7 +20,7 @@ namespace LeagueCalendar.Models
                 Teams = teamsList;
             }
         }
-        
+         
         public int Year { get; set; }
     }
 }
